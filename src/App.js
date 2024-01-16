@@ -12,7 +12,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/customers" element={<CustomersPage />} />
-          <Route path="/customers-with-pagination" element={<CustomersPageWithPagination />} />
+          <Route path="/customers-page" element={<CustomersPageWithPagination />} />
         </Routes>
       </main>
     </Router>
